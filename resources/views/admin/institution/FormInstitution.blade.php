@@ -6,7 +6,7 @@
         value="{{ old('id', $institution) }}">
     @error('id')
         <div class="text-small text-danger">{{ $message }}</div>
-    @enderror ds
+    @enderror
 </div> --}}
 <!-- -->
 
@@ -26,7 +26,7 @@
     <input class="form-control" type="text" name="rector" id="rector" placeholder="Rector"
         value="{{ old('rector', $institution) }}">
     @error('rector')
-        <div class="text-small text-danger">{{ $message }}</div>
+        <div class="text-small text-danger">{{ $message }}</div>|||||
     @enderror
 </div>
 
