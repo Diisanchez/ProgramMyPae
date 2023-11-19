@@ -1,0 +1,17 @@
+.brand-logo {
+    padding: 0 !important;
+    text-align: center;
+}
+
+.img-logo {
+    width: 135px !important;
+}
+
+.background-admin {
+    background-image: url("../../img/pae2.jpg") !important;
+    background-size: contain !important;
+    background-repeat: repeat !important;
+    width: 500% !important;
+    height: 800px !important;
+}
+
