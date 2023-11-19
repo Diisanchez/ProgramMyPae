@@ -6,7 +6,7 @@
         value="{{ old('id', $institution) }}">
     @error('id')
         <div class="text-small text-danger">{{ $message }}</div>
-    @enderror
+    @enderror ds
 </div> --}}
 <!-- -->
 
